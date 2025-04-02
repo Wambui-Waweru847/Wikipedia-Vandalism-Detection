@@ -4,7 +4,6 @@ Wikipedia faces constant challenges with vandalism, where users intentionally ma
 
 Framework
 1. Data Collection and Scraping
-
 Develop scraping pipeline for Wikipedia revision history using Wikipedia API
 Extract revision metadata (timestamps, user info, edit comments)
 Collect revision content differences (added/removed text)
