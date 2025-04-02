@@ -1,8 +1,8 @@
 # Wikipedia-Vandalism-Detection
-Problem Statement
+#Problem Statement
 Wikipedia faces constant challenges with vandalism, where users intentionally make harmful edits to articles. This project aims to develop machine learning models that can automatically detect vandalism in Wikipedia revision history data, helping to maintain the integrity and reliability of Wikipedia content.
 
-Framework
+#Framework
 1. Data Collection and Scraping
 Develop scraping pipeline for Wikipedia revision history using Wikipedia API
 Extract revision metadata (timestamps, user info, edit comments)
