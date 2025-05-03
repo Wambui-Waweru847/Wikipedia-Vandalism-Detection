@@ -12,3 +12,22 @@ Wikipedia, as one of the largest collaborative knowledge platforms, constantly f
 - Evaluate model accuracy on test set.
 - Build random forest model with 200 trees and node size 25 
 - Evaluate random forest model accuracy on test set
+
+## Communication of insights
+- The total number of revisions : 1067
+- The total number of vandalism cases: 104
+- Vandalism rate: 10 %
+- The total number of significant changes (above 1000 characters): 26
+- The percentage of significant changes : 2.44%
+- The total number of revert mentions: 55
+- The percentage of revert mention : 5.15%
+- The total number of vandalism mentions: 5
+- The model attained a baseline score of 90%
+- The model itself attained a score of 100%, probably because of the small nature of the sample size
+- Only two features - diff_size and contains_vandalism - were important in classifying the revisions as either harmful or harmless.
+- Vandalism detection system can be used as a monitoring system to identify coordinated vandalism attack
+
+## Recommendations
+Future work could enhance the work through:
+  - Incorporating natural language processing for deeper analysis
+  - Creating specialized detectors for different vandalism types
